@@ -1,6 +1,6 @@
 // Load and insert the footer
 const footerContainer = document.getElementById('footer');
-fetch('html/footer.html')
+fetch('/footer.html')
   .then(response => response.text())
   .then(data => {
     footerContainer.innerHTML = data;
